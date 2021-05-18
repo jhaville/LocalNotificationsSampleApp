@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB9BBADC264D294B00FB5CD8 /* InfoOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9BBADB264D294B00FB5CD8 /* InfoOverlayView.swift */; };
+		FB9CE42726445FC90093393D /* CreateNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CE42626445FC90093393D /* CreateNotificationView.swift */; };
+		FBC08753263EE8370015597C /* LocalNotificationsYouTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC08752263EE8370015597C /* LocalNotificationsYouTubeApp.swift */; };
+		FBC08757263EE8380015597C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC08756263EE8380015597C /* Assets.xcassets */; };
+		FBC0875A263EE8380015597C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC08759263EE8380015597C /* Preview Assets.xcassets */; };
+		FBC08762263EEC430015597C /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC08761263EEC430015597C /* NotificationListView.swift */; };
+		FBC0876C263EF1000015597C /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0876B263EF1000015597C /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB9BBADB264D294B00FB5CD8 /* InfoOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoOverlayView.swift; sourceTree = "<group>"; };
+		FB9CE42626445FC90093393D /* CreateNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotificationView.swift; sourceTree = "<group>"; };
+		FBC0874F263EE8370015597C /* LocalNotificationsYouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotificationsYouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC08752263EE8370015597C /* LocalNotificationsYouTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsYouTubeApp.swift; sourceTree = "<group>"; };
+		FBC08756263EE8380015597C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC08759263EE8380015597C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBC0875B263EE8380015597C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC08761263EEC430015597C /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
+		FBC0876B263EF1000015597C /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC0874C263EE8370015597C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC08746263EE8370015597C = {
+			isa = PBXGroup;
+			children = (
+				FBC08751263EE8370015597C /* LocalNotificationsYouTube */,
+				FBC08750263EE8370015597C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC08750263EE8370015597C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0874F263EE8370015597C /* LocalNotificationsYouTube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC08751263EE8370015597C /* LocalNotificationsYouTube */ = {
+			isa = PBXGroup;
+			children = (
+				FBC08752263EE8370015597C /* LocalNotificationsYouTubeApp.swift */,
+				FBC08756263EE8380015597C /* Assets.xcassets */,
+				FBC0875B263EE8380015597C /* Info.plist */,
+				FBC08758263EE8380015597C /* Preview Content */,
+				FBC08761263EEC430015597C /* NotificationListView.swift */,
+				FBC0876B263EF1000015597C /* NotificationManager.swift */,
+				FB9CE42626445FC90093393D /* CreateNotificationView.swift */,
+				FB9BBADB264D294B00FB5CD8 /* InfoOverlayView.swift */,
+			);
+			path = LocalNotificationsYouTube;
+			sourceTree = "<group>";
+		};
+		FBC08758263EE8380015597C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBC08759263EE8380015597C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC0874E263EE8370015597C /* LocalNotificationsYouTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC0875E263EE8380015597C /* Build configuration list for PBXNativeTarget "LocalNotificationsYouTube" */;
+			buildPhases = (
+				FBC0874B263EE8370015597C /* Sources */,
+				FBC0874C263EE8370015597C /* Frameworks */,
+				FBC0874D263EE8370015597C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalNotificationsYouTube;
+			productName = LocalNotificationsYouTube;
+			productReference = FBC0874F263EE8370015597C /* LocalNotificationsYouTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC08747263EE8370015597C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FBC0874E263EE8370015597C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FBC0874A263EE8370015597C /* Build configuration list for PBXProject "LocalNotificationsYouTube" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC08746263EE8370015597C;
+			productRefGroup = FBC08750263EE8370015597C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC0874E263EE8370015597C /* LocalNotificationsYouTube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC0874D263EE8370015597C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC0875A263EE8380015597C /* Preview Assets.xcassets in Resources */,
+				FBC08757263EE8380015597C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC0874B263EE8370015597C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC08753263EE8370015597C /* LocalNotificationsYouTubeApp.swift in Sources */,
+				FB9CE42726445FC90093393D /* CreateNotificationView.swift in Sources */,
+				FBC0876C263EF1000015597C /* NotificationManager.swift in Sources */,
+				FBC08762263EEC430015597C /* NotificationListView.swift in Sources */,
+				FB9BBADC264D294B00FB5CD8 /* InfoOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBC0875C263EE8380015597C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBC0875D263EE8380015597C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC0875F263EE8380015597C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LocalNotificationsYouTube/Preview Content\"";
+				DEVELOPMENT_TEAM = TCQJN659LL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LocalNotificationsYouTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tenlabs.LocalNotificationsYouTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC08760263EE8380015597C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LocalNotificationsYouTube/Preview Content\"";
+				DEVELOPMENT_TEAM = TCQJN659LL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LocalNotificationsYouTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tenlabs.LocalNotificationsYouTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC0874A263EE8370015597C /* Build configuration list for PBXProject "LocalNotificationsYouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0875C263EE8380015597C /* Debug */,
+				FBC0875D263EE8380015597C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC0875E263EE8380015597C /* Build configuration list for PBXNativeTarget "LocalNotificationsYouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0875F263EE8380015597C /* Debug */,
+				FBC08760263EE8380015597C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC08747263EE8370015597C /* Project object */;
+}
